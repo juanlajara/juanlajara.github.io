@@ -5,12 +5,17 @@
 	background-image: url("./../images/DreFasecolda.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
+	margin: 0 0 0rem;
 }
 
 .nav {
 	display: flex;
-	background-color: black;
 	padding: 20px;
+	font-size: 18px;
+	font-family: arial;
+	height: 50px;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .left,
@@ -25,18 +30,6 @@
 .left,
 .right {
 	width: 25%;
-}
-
-.center {
-	width: 50%;
-}
-
-.center a {
-	color: white;
-	padding: 10px;
-	font-size: 18px;
-	text-decoration: none;
-	font-family: arial;
 }
 
 .right button {
@@ -55,9 +48,6 @@
 	width: 50%;
 }
 
-.center {
-	color: white;
-}
 /* Column styles */
 .column {
 	display: flex;
@@ -117,7 +107,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: black;
+	background: rgb(248, 249, 250);
 	height: 100px;
 }
 
@@ -132,31 +122,35 @@
 }
 
 .LinkedIn {
-	color: skyblue;
+	color: rgb(70, 98, 192);
 }
 
 .GitHub {
-	color: rgb(12, 9, 36);
+	color: rgb(78, 61, 207);
 }
 
-@media (min-width: 576px) {   
- .custom-class {
-    display: block;
-  } }
+@media (min-width: 576px) {
+	.custom-class {
+		display: block;
+	}
+}
 
 /* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {   
+@media (min-width: 768px) {
 	.custom-class {
-	   display: block;
-	 } }
+		display: block;
+	}
+}
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {   
+@media (min-width: 992px) {
 	.custom-class {
-	   display: block;
-	 } }
+		display: block;
+	}
+}
 /* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {   
+@media (min-width: 1200px) {
 	.custom-class {
-	   display: block;
-	 } }
+		display: block;
+	}
+}
