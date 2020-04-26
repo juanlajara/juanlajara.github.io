@@ -85,37 +85,3 @@
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
 }
-
-.LinkedIn {
-	color: rgb(70, 98, 192);
-}
-
-.GitHub {
-	color: rgb(78, 61, 207);
-}
-
-@media (min-width: 576px) {
-	.custom-class {
-		display: block;
-	}
-}
-
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-	.custom-class {
-		display: block;
-	}
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	.custom-class {
-		display: block;
-	}
-}
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-	.custom-class {
-		display: block;
-	}
-}
