@@ -12,14 +12,26 @@
       <!-- Nav HTML -->
       
        <figure class="homepic"></figure>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
-                <a class="navbar navbar-dark bg-light" href="#">Home <span class="sr-only">(current)</span></a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Portfolio</a>
-      
-       </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
        <!-- Column Layout -->
        <section class="column">
            <article class="aboutme">
@@ -32,8 +44,10 @@
        </section>
        <!-- Footer HTML -->
        <footer class="footer">
-            <a href="https://juanlajara.github.io/" class="GitHub">GitHub</a>
-            <a href="https://www.linkedin.com/in/juan-andres-lajara-179a8442/" class="LinkedIn">LinkedIn</a>
+            <a href="https://juanlajara.github.io/" ><i class="fab fa-github-alt fa-3x"></i></a>
+            <a href="https://www.linkedin.com/in/juan-andres-lajara-179a8442/" > <i class="fab fa-linkedin fa-3x"></i></a>
+            <!-- <a href="https://www.linkedin.com/in/petewanca" target="_blank"><img src="./images/linkedin.png" alt="linkedin logo"></a>
+            <i class="fab fa-linkedin"></i> -->
        </footer>
     </body>
        <!-- All things JavaScript -->
