@@ -34,8 +34,8 @@
 /* Column styles */
 .column {
 	display: flex;
-	height: 1200px;
-	width: 800px;
+	height: 600px;
+	width: 900px;
 	flex-direction: column;
 	margin: 0 auto;
 }
@@ -45,11 +45,7 @@
 	width: 100%;
 	display: flex;
 	align-items: flex-end;
-	margin-bottom: 20px;
-}
-
-.aboutme {
-	margin-top: 20px;
+	margin-top: 90px;
 	background-image: url("./../images/AboutPic.png");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -58,7 +54,7 @@
 .text {
 	background: rgb(0, 0, 0, 0.7);
 	width: 100%;
-	padding: 20px 40px;
+	padding: 5px 40px;
 	color: white;
 }
 
@@ -71,17 +67,15 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Footer Styles */
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background: rgb(248, 249, 250);
-	height: 100px;
+	visibility: visible;
+	animation-name: fadein;
 }
 
-.footer a {
-	padding: 20px 40px;
-	font-family: Arial, Helvetica, sans-serif;
-	text-decoration: none;
+.igit {
+	color: #1f1558;
+}
+
+.ilinkedin {
+	color: dodgerblue;
 }
