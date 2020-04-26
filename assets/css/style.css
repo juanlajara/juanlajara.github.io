@@ -69,19 +69,7 @@
 
 .meal1 {
 	margin-top: 20px;
-	background-image: url("./../images/steak.png");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.meal2 {
-	background-image: url("./../images/soup.png");
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-.meal3 {
-	background-image: url("./../images/cheesecake.png");
+	background-image: url("./../images/AboutPic.png");
 	background-repeat: no-repeat;
 	background-position: center;
 }
