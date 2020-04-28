@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
     <head>
-        <title>Juan Andres Lajara Portfolio</title>
+        <title>Dre's Portfolio Page</title>
         <!-- Reset CSS-->
         <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
         <!-- BootStrap-->
@@ -11,17 +11,29 @@
     <body>
       <!-- Nav HTML -->
       
-       <figure class="homepic"></figure>
-       <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+       <figure class="homepic" id="home"></figure>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">DreAct</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
-                <a class="navbar navbar-dark bg-light" href="#">Home <span class="sr-only">(current)</span></a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">Portfolio</a>
-      
-       </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
        <!-- Column Layout -->
-       <section class="column">
+       <section class="column" >
            <article class="aboutme">
                <div class="text">
                    <h1>About</h1>
@@ -31,9 +43,14 @@
 
        </section>
        <!-- Footer HTML -->
-       <footer class="footer">
-            <a href="https://juanlajara.github.io/" class="GitHub">GitHub</a>
-            <a href="https://www.linkedin.com/in/juan-andres-lajara-179a8442/" class="LinkedIn">LinkedIn</a>
+       <footer class="wow fadeIn bg-gray animated mt-5" >
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 center-col text-center"> 
+                            <a href="https://github.com/juanlajara/juanlajara.github.io" class="btn social-icon button igit" data-abc="true"><i class="fab fa-github-alt fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/juan-andres-lajara-179a8442/" class="btn social-icon button ilinkedin" data-abc="true"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </div>
+                </div>
        </footer>
     </body>
        <!-- All things JavaScript -->
