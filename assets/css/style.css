@@ -69,12 +69,6 @@
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.footer {
-	visibility: visible;
-	animation-name: fadein;
-	padding-top: 100px;
-}
-
 .igit {
 	color: #1f1558;
 }
@@ -88,4 +82,9 @@
 	height: 100;
 	padding-left: 200px;
 	padding-right: 200px;
+}
+
+html,
+body {
+	height: 100%;
 }
