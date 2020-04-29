@@ -77,9 +77,11 @@
 	color: dodgerblue;
 }
 
-.contactmebox {
-	padding-left: 300px;
-	padding-right: 300px;
+.fixedfooter {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
 }
 
 html,
