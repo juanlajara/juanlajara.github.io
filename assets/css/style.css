@@ -8,24 +8,6 @@
 	margin: 0 0 0rem;
 }
 
-.contactpic {
-	background: white;
-	height: 462px;
-	background-image: url("./../images/hobbitguate.jpeg");
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: 0 0 0rem;
-}
-
-.portfoliopic {
-	background: white;
-	height: 462px;
-	background-image: url("./../images/portfoliopic.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	margin: 0 0 0rem;
-}
-
 .logo {
 	color: cornsilk;
 	text-transform: uppercase;
