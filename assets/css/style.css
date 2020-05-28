@@ -52,7 +52,7 @@
 }
 
 .igit {
-	color: #1f1558;
+	color: #33295e;
 }
 
 .ilinkedin {
@@ -69,4 +69,9 @@
 html,
 body {
 	height: 100%;
+}
+
+.card-header {
+	background-color: #129eaf;
+	color: #fff;
 }
