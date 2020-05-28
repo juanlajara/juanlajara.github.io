@@ -30,6 +30,7 @@
 .text {
 	background: rgb(0, 0, 0, 0.7);
 	width: 100%;
+	height: 50%;
 	padding: 5px 40px;
 	color: white;
 }
