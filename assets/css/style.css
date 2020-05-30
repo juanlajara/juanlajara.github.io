@@ -40,3 +40,7 @@ body {
 	background-color: #129eaf;
 	color: #fff;
 }
+#cardGif {
+	height: 100px;
+	width: 300px;
+}
