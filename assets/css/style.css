@@ -45,6 +45,7 @@ body {
 	width: 300px;
 }
 
-.white {
+.sbBtn {
 	color: #fff !important;
+	background-color: #129eaf /* !important */;
 }
